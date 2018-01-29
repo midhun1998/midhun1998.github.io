@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="description" content="Midhun R Nair-Portfolio">
+<meta name="keywords" content="Midhun, Portfolio,">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<title>Hola señor/señora! Bienvenidos a mi sitio web!</title>
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/myweb-style.css">
+
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+
+</head>
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+
+<!-- PRE LOADER -->
+
+<div class="preloader">
+     <div class="spinner">
+          <span class="spinner-rotate"></span>
+     </div>
+</div>
+
+
+<!-- Navigation Section -->
+
+<div class="navbar navbar-fixed-top custom-navbar" role="navigation">
+     <div class="container">
+
+          <!-- navbar header -->
+          <div class="navbar-header">
+               <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+               </button>
+               
+          </div>
+
+          <div class="collapse navbar-collapse">
+               <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home" class="smoothScroll">Home</a></li>
+                    <li><a href="#about" class="smoothScroll">About Me</a></li>
+                    <li><a href="#experience" class="smoothScroll">Experiences</a></li>
+                    <li><a href="#quotes" class="smoothScroll">Testimonial</a></li>
+                    <li><a href="#contact" class="smoothScroll">Contact</a></li>
+               </ul>
+          </div>
+
+     </div>
+</div>
+
+
+<!-- Home Section -->
+
+<section id="home" class="parallax-section">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-6 col-sm-6">
+                    <div class="home-img"></div>
+               </div>
+
+               <div class="col-md-6 col-sm-6">
+                    <div class="home-thumb">
+                         <div class="section-title">
+                              <h4 class="wow fadeInUp" data-wow-delay="0.3s">Welcome to my website</h4>
+                              <h1 class="wow fadeInUp" data-wow-delay="0.6s" id="example3"></h1>
+                              <p class="wow fadeInUp" data-wow-delay="0.9s">I'm on <a href="https://github.com/midhun1998">Github</a> and <a href="https://www.linkedin.com/in/midhunnair/">LinkedIn</a>! Don't forget to check them out!</p>
+                              
+                              <a href="#about" class="wow fadeInUp smoothScroll section-btn btn btn-success" data-wow-delay="1.4s">Get Started</a>
+                              
+                         </div>
+                    </div>
+               </div>
+
+
+          </div>
+     </div>
+</section>
+
+
+<!-- About Section -->
+
+<section id="about" class="parallax-section">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-6 col-sm-12">
+                    <div class="about-thumb">
+                         <div class="wow fadeInUp section-title" data-wow-delay="0.4s">
+                              <h1>About</h1>
+                              <p class="color-yellow">I'm a <span id="example2"></span> </p>
+                         </div>
+                         <div class="wow fadeInUp" data-wow-delay="0.8s">
+                              <p>Myself, <strong>Midhun R Nair</strong>. I am currently a student at the Karunya Institute of Technology and Science, pursuing a Bachelor's degree in Computer Science.I was born and raised in the beautiful city of India. I like traveling more and learned 4 languages along the way. I consider myself an artist. I started with painting as a kid and continued with other forms of art such as illusion, photography and graphic design. Lately I work on software, which I consider to be the art of our age. I study computer science and like to focus on user experience and design on my projects. I also Skateboard and Swim. When I'm not coding, I enjoy reading novels and listening to music.
+                              </p>
+                         </div>
+                    </div>
+               </div>
+
+               <div class="col-md-3 col-sm-6">
+                    <div class="background-image about-img"></div>
+               </div>
+
+               <div class="bg-yellow col-md-3 col-sm-6">
+                    <div class="skill-thumb">
+                         <div class="wow fadeInUp section-title color-white" data-wow-delay="1.2s">
+                              <h1>My Skills</h1>
+                              <p class="color-white">Under Development!</p>
+                         </div>
+
+                         <div class=" wow fadeInUp skills-thumb" data-wow-delay="1.6s">
+                         <strong>Frontend Design</strong>
+                              <span class="color-white pull-right">90%</span>
+                                   <div class="progress">
+                                        <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                                   </div>
+
+                         <strong>Backend processing</strong>
+                              <span class="color-white pull-right">70%</span>
+                                   <div class="progress">
+                                        <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+                                   </div>
+
+                         <strong>Graphic Design</strong>
+                              <span class="color-white pull-right">85%</span>
+                                   <div class="progress">
+                                        <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                                   </div>
+                         <strong>Programming</strong>
+                              <span class="color-white pull-right">80%</span>
+                                   <div class="progress">
+                                        <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                                   </div>
+                         </div>
+
+                    </div>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+
+<!-- Service Section -->
+
+<section id="service" class="parallax-section">
+     <div class="container">
+          <div class="row">
+
+               <div class="bg-yellow col-md-3 col-sm-6 block">
+                    <div class="wow fadeInUp color-white service-thumb" data-wow-delay="0.8s">
+                         <i class="fa fa-desktop"></i>
+                              <h3>Interface Design</h3>
+                              <p class="color-white">I have a very keen eye for aesthetics and very much enjoy design overall. I have produced numerous flyers and logos for school organizations. I am up to date with the latest trends in graphic design and I have a very modern feel to my designs.</p>
+                    </div>
+               </div>
+
+               <div class="col-md-3 col-sm-6 block">
+                    <div class="wow fadeInUp color-white service-thumb" data-wow-delay="1.2s">
+                         <i class="fa fa-camera"></i>
+                              <h3>Photography</h3>
+                              <p class="color-white">I have passion for photography. I have been shooting for some time now and I produce HD photos with ease.I have mastered my DSLR and am very attentive to the details of every photo I take. I treat it as an art and make sure I always produce high quality photos.</p>
+                    </div>
+               </div>
+
+               <div class="bg-dark col-md-3 col-sm-6 block">
+                    <div class="wow fadeInUp color-white service-thumb" data-wow-delay="1.6s">
+                         <i class="fa fa-android"></i>
+                              <h3>Mobile App</h3>
+                              <p class="color-white">I enjoy front-end development and UI design very much because of the freedom I have to paint my vision. At present im paving my way through the back-end because of its requirement of critical thinking and logical skills.</p>
+                    </div>
+               </div>
+
+               <div class="bg-white col-md-3 col-sm-6 block">
+                    <div class="wow fadeInUp service-thumb" data-wow-delay="1.8s">
+                         <i class="fa fa-code"></i>
+                              <h3>Coding</h3>
+                              <p>I have learned lots of important aspects about computer science throughout my years in school.I am comfortable with object oriented languages such as Java and C++. I also enjoy powerful languages such as C, Python and assembly.</p>
+                    </div>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+
+<!-- Experience Section -->
+
+<section id="experience" class="parallax-section">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-6 col-sm-6">
+                    <div class="background-image experience-img"></div>
+               </div>
+
+               <div class="col-md-6 col-sm-6">
+                    <div class="color-white experience-thumb">
+                         <div class="wow fadeInUp section-title" data-wow-delay="0.8s">
+                              <h1>My Experiences</h1>
+                              <p class="color-white"></p>
+                         </div>
+
+                         <div class="wow fadeInUp color-white media" data-wow-delay="1.2s">
+                              <div class="media-object media-left">
+                                   <i class="fa fa-laptop"></i>
+                              </div>
+                              <div class="media-body">
+                                   <h3 class="media-heading">Graphic Designer<small>2017 Nov - Current</small></h3>
+                                   <p class="color-white">I'm currently working with Impression Magazine Team in designing Magazine.</p>
+                              </div>
+                         </div>
+
+                         <div class="wow fadeInUp color-white media" data-wow-delay="1.6s">
+                              <div class="media-object media-left">
+                                   <i class="fa fa-laptop"></i>
+                              </div>
+                              <div class="media-body">
+                                   <h3 class="media-heading">Web Developer <small>2017 Oct - Current</small></h3>
+                                   <p class="color-white">I'm also a part of Web Developer Team in the University.</p>
+                              </div>
+                         </div>
+
+                    </div>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+
+<!-- Education Section -->
+
+<section id="education" class="parallax-section">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-6 col-sm-6">
+                    <div class="color-white education-thumb">
+                         <div class="wow fadeInUp section-title" data-wow-delay="0.8s">
+                              <h1>My Education</h1>
+                              <p class="color-white"></p>
+                         </div>
+
+                         <div class="wow fadeInUp color-white media" data-wow-delay="1.2s">
+                              <div class="media-object media-left">
+                                   <i class="fa fa-laptop"></i>
+                              </div>
+                              <div class="media-body">
+                                   <h3 class="media-heading">Bachelor of Technology <small>2016 Jun - 2020</small></h3>
+                                   <p class="color-white">Currently doing my graduation from Karunya Institute of Technology and Science </p>
+                              </div>
+                         </div>
+
+                         <div class="wow fadeInUp color-white media" data-wow-delay="1.6s">
+                              <div class="media-object media-left">
+                                   <i class="fa fa-laptop"></i>
+                              </div>
+                              <div class="media-body">
+                                   <h3 class="media-heading">Junior High School <small>2014 Jun - 2016 Mar</small></h3>
+                                   <p class="color-white">From Urbane Junior College and Academy, Hyderabad</p>
+                              </div>
+                         </div>
+
+                    </div>
+               </div>
+
+               <div class="col-md-6 col-sm-6">
+                    <div class="background-image education-img"></div>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+
+<!-- Quotes Section -->
+
+<section id="quotes" class="parallax-section">
+     <div class="overlay"></div>
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-offset-1 col-md-10 col-sm-12">
+                    <i class="wow fadeInUp fa fa-star" data-wow-delay="0.6s"></i>
+                    <blockquote class="wow fadeInUp" data-wow-delay="0.8s">Everybody is a Genius. But If You Judge a Fish by Its Ability to Climb a Tree, It Will Live Its Whole Life Believing that It is Stupid</blockquote>
+                    <p class="wow fadeInUp" data-wow-delay="1s" style="color: white;">-Albert Einstein.</p>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+
+<!-- Contact Section -->
+
+<section id="contact" class="parallax-section">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-6 col-sm-12">
+                    <div class="contact-form">
+                         <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
+                              <h1 class="color-white">Want to work with me<span id="example1" class="color-white"></span></h1>
+                              <p class="color-white">Write a message, give me a call and we'll grab a coffee and talk about your project.</p>
+                         </div>
+
+                         <div id="contact-form">
+                              <form action="acknowledge.php" method="post">
+                                   <div class="wow fadeInUp" data-wow-delay="1s">
+                                        <input name="fullname" type="text" class="form-control" id="fullname" placeholder="Your Name">
+                                   </div>
+                                   <div class="wow fadeInUp" data-wow-delay="1.2s">
+                                        <input name="email" type="email" class="form-control" id="email" placeholder="Your Email">
+                                   </div>
+                                   <div class="wow fadeInUp" data-wow-delay="1.4s">
+                                        <textarea name="message" rows="5" class="form-control" id="message" placeholder="Write your message..."></textarea>
+                                   </div>
+                                   <div class="wow fadeInUp col-md-6 col-sm-8" data-wow-delay="1.6s">
+                                        <input name="submit" type="submit" class="form-control" id="submit" value="Send">
+                                   </div>
+                              </form>
+                         </div>
+
+                    </div>
+               </div>
+
+               <div class="col-md-3 col-sm-6">
+                    <div class="background-image contact-img"></div>
+               </div>
+
+               <div class="bg-dark col-md-3 col-sm-6">
+                    <div class="contact-thumb">
+                         <div class="wow fadeInUp contact-info" data-wow-delay="0.6s">
+                              <h3 class="color-white">Visit me</h3>
+                              <p>Sreeragam House,<br>Cherthala South,<br>Kerala</p>
+                         </div>
+
+                         <div class="wow fadeInUp contact-info" data-wow-delay="0.8s">
+                              <h3 class="color-white">Contact.</h3>
+                              <p><i class="fa fa-phone"></i> +91 7530028004</p>
+                              <p><i class="fa fa-envelope-o"></i> <a href="mailto:midhun.rnair011@gmail.com">midhun.rnair011@gmail.com</a></p>
+                         </div>
+                         <a href="https://www.linkedin.com/in/midhunnair/" class="wow fadeInUp smoothScroll newsection-btn btn btn-newsuccess" data-wow-delay="1.4s">Download Resume</a>
+                    </div>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+
+<!-- Footer Section -->
+
+<footer>
+<div id="banner">
+    <img id="warpbg" class="pelm left top" src="images/warpbg.png">
+    <img id="star1" class="pelm top" src="images/star1.png">
+    <img id="star2" class="pelm top" src="images/star2.png">
+    <img id="star3" class="pelm" src="images/star3.png">
+    <img id="star4" class="pelm left top" src="images/star4.png">
+    <img id="star5" class="pelm left" src="images/star5.png">
+    <img id="planet" class="pelm left top" src="images/planet.png">
+    <img id="robot" class="pelm top" src="images/robot.png">
+    <img id="astronaut" class="pelm top" src="images/astronaut.png">
+    <img id="asteroid" class="pelm" src="images/asteroid.png">
+    <div class="row ">
+               <div class="col-md-12 col-sm-12" >
+                    <div style="position: absolute;left: 0px;right: 0px;top: 0px;bottom: 0px;">
+                         <h1 class="wow fadeInUp color-white" data-wow-delay="0.6s" style="font-size: 100px;">Let's Socialize!<h1>
+                    <ul class="wow fadeInUp social-icon" data-wow-delay="2s" ">
+                         <li><a href="https://www.facebook.com/midhunmdj" class="fa fa-facebook"></a></li>
+                         <li><a href="https://twitter.com/Its_Midhun_Nair" class="fa fa-twitter"></a></li>
+                         <li><a href="https://plus.google.com/u/0/+Midhunrnair" class="fa fa-google-plus"></a></li>
+                         <li><a href="https://www.instagram.com/thatguyfromjupiter/" class="fa fa-instagram"></a></li>
+                         <li><a href="https://www.linkedin.com/in/midhunnair/" class="fa fa-linkedin"></a></li>
+                    </ul>
+                    </div>
+               </div>
+               <div class="wow fadeInUp footer-copyright" data-wow-delay="1.8s" style="position: absolute;bottom: 0px;left: 0px;right: 0px;">
+                         <p>| Copyright &copy; 2018 Midhun R Nair |</p>
+                    </div>
+               
+          </div>
+     </div>
+</footer>
+
+<!-- SCRIPTS -->
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.parallax.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="//code.jquery.com/jquery-2.2.3.min.js"></script> 
+<script src="js/jquery.parallaxmouse.min.js"></script>
+<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.bootcss.com/typed.js/1.1.4/typed.min.js"></script>
+<script type="text/javascript">
+
+     $(function(){
+
+        $("#example2").typed({
+
+            strings: [" Coder.", " Designer.", " Developer.", "Enthusiast.", "Student."],
+            shuffle: true,
+            showCursor: true,
+            typeSpeed: 200,
+            loopCount: false,
+            backDelay: 700,
+            loop: true,
+
+        });
+          $("#example3").typed({
+          strings: ["Hello, I am <strong>Midhun</strong> currently pursuing my Degree in Computer Science."],
+          contentType: 'html',
+          typeSpeed: 50,
+          showCursor: false,
+          });
+     $("#example1").typed({
+
+            strings: ["..?"],
+            showCursor: false,
+            typeSpeed: 500,
+            loopCount: false,
+            backDelay: 0,
+            loop: true,
+
+        });
+
+    });
+     $(window).parallaxmouse({
+        invert: true,
+        range: 400,
+        elms: [
+            {el: $('#warpbg'), rate: 0.1},
+            {el: $('#star1'), rate: 0.2},
+            {el: $('#star2'), rate: 0.2},
+            {el: $('#star3'), rate: 0.2},
+            {el: $('#star4'), rate: 0.2},
+            {el: $('#star5'), rate: 0.2},
+            {el: $('#planet'), rate: 0.3},
+            {el: $('#robot'), rate: 0.4},
+            {el: $('#astronaut'), rate: 0.48},
+            {el: $('#asteroid'), rate: 0.7}
+        ]
+    });
+      
+</script>
+
+</body>
+</html>
